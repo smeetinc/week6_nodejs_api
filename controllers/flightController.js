@@ -53,7 +53,11 @@ exports.createFlights = async (req, res) => {
     } catch (err) {
         res.status(500).json({message: err.message});
     }
-}
+};
+
+//update flight data
+
+exports
 
 exports.example = (req, res) => {
     console.log("example")
